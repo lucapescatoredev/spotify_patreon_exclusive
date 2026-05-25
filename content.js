@@ -1,8 +1,6 @@
 (() => {
   "use strict";
 
-  const LOG = (...args) => console.log("[SEF]", ...args);
-
   let state = {
     filterMode: "all",
     searchQuery: "",
@@ -63,7 +61,6 @@
     });
 
     state.injected = true;
-    LOG("Controls injected");
   }
 
   function applyFilters() {
@@ -149,7 +146,6 @@
   }
 
   function init() {
-    LOG("Loaded");
     state.lastUrl = window.location.href;
 
     let debounceTimer = null;
