@@ -35,11 +35,11 @@
     controls.style.cssText = "display:flex !important; visibility:visible !important; opacity:1 !important; position:relative !important; z-index:9999 !important; padding:12px 0; margin:4px 0 8px 0; gap:12px; align-items:center;";
     controls.innerHTML = `
       <div class="sef-tabs">
-        <button class="sef-tab sef-tab-active" data-filter="all">Tutti</button>
+        <button class="sef-tab sef-tab-active" data-filter="all">All</button>
         <button class="sef-tab" data-filter="exclusive">Patreon Exclusive</button>
-        <button class="sef-tab" data-filter="free">Liberi</button>
+        <button class="sef-tab" data-filter="free">Free</button>
       </div>
-      <input type="text" id="sef-search" class="sef-search-input" placeholder="Cerca tra gli episodi..." />
+      <input type="text" id="sef-search" class="sef-search-input" placeholder="Search..." />
       <span id="sef-counter" class="sef-counter"></span>
     `;
 
